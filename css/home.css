@@ -1,0 +1,31 @@
+.home-line {
+    opacity: 0;
+}
+
+.home-line:nth-child(1) {
+    transform: translateY(10em);
+    animation: slide-up 1.3s forwards ease-out;
+}
+
+.home-line:nth-child(2) {
+    transform: translateY(10em);
+    animation: slide-up 1.3s forwards ease-out 200ms;
+}
+
+.home-line:nth-child(3) {
+    transform: translateY(10em);
+    animation: slide-up 1.3s forwards ease-out 400ms;
+}
+
+.home-line:nth-child(4) {
+    transform: translateY(10em);
+    animation: slide-up 1.3s forwards ease-out 600ms;
+}
+
+@keyframes slide-up {
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+

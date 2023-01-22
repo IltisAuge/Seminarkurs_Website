@@ -1,0 +1,14 @@
+#main-table-container > table {
+    width: 60%;
+}
+
+#main-table-container > table th, #main-table-container > table td {
+    text-align: center;
+}
+
+/* For devices smaller than 776px */
+@media (max-width: 776px) {
+    #main-table-container > table {
+        width: 100%;
+    }
+}

@@ -1,0 +1,9 @@
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    margin: 1.5em;
+}

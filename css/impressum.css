@@ -1,0 +1,13 @@
+/* For devices smaller than 550px */
+@media (max-width: 550px) {
+    main {
+        height: auto;
+    }
+    
+    main > .row {
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-grow: 1;
+    }
+}
