@@ -1,9 +1,11 @@
+const uri = '/seminarkurs-2023';
+
 function load_navbar() {
-    $('#header').load('../navbar.html');
+    $('#header').load(uri + '/navbar.html');
 }
 
 function load_footer() {
-    $('#footer').load('../footer.html');
+    $('#footer').load(uri + '/footer.html');
 }
 
 load_navbar();
